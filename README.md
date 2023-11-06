@@ -64,4 +64,12 @@
         - Tuple
         - Object
 
-    
+# Output Variables
+- Returned by a Terraform resources or a module
+- Used to store information about resources
+- Can be used to pass information between modules
+- Can store sensitive information, such as passwords or API keys
+- Example
+    - output "public_ip" {
+        value = aws_instance.my_instance.public_ip
+    }
