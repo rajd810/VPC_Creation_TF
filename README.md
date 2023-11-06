@@ -31,3 +31,37 @@
 - Terraform apply
 - Terraform destroy
 
+# Terraform secure AWS credentials:
+- AWS CLI
+- Enviornment Variables
+- Vault
+
+# Variable
+- Number 
+- Strings
+- Boolean
+- List
+- Map
+
+# 3 ways of configure / declare variables in terraform
+- Input variables
+- Environmental vars
+- Personal org / Enviornment vars
+
+    - Variables block
+        - Type (optional) - defined type of value - string or number or list
+        - Default (optional) - sets default value for the variables
+        - Description (optional) - Any description, for any document type
+
+    - Simple
+        - String
+        - Number
+        - Boolena
+    - Complex 
+        - List
+        - Set
+        - Map
+        - Tuple
+        - Object
+
+    
